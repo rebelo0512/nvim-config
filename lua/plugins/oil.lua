@@ -1,0 +1,25 @@
+return {
+    -- 'stevearc/oil.nvim',
+    -- -- Optional dependencies
+    -- dependencies = { 'nvim-tree/nvim-web-devicons' },
+    -- config = function()
+    --     local oil = require('oil')
+    --
+    --     oil.setup({
+    --         view_options = {
+    --             -- Show files and directories that start with "."
+    --             show_hidden = true,
+    --         },
+    --         float = {
+    --             padding = 4,
+    --         },
+    --         preview = {
+    --             disable_preview = function(filename)
+    --                 return true
+    --             end,
+    --         },
+    --     })
+    --
+    --     vim.keymap.set('n', '<leader>e', '<CMD>Oil --float<CR>', { desc = 'Open parent directory' })
+    -- end,
+}
